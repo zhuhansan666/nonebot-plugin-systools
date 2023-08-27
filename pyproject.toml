@@ -1,0 +1,6 @@
+[project]
+name = "nonebot-plugin-system-tools"
+version = "0.0.1"
+description = "system-tools (rebuild from npm:koishi-plugin-systools)"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
