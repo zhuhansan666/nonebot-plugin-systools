@@ -1,5 +1,6 @@
 import socket
 import requests
+from nonebot import logger
 
 def ping(ip):
     if ip:
@@ -12,6 +13,7 @@ def ping(ip):
 
         if newip != ip:
             ip = newip
+            logger.debug(f"注意: IP 已自动格式化为 {ip}")
             print(f"注意: IP 已自动格式化为 {ip}")
 
     try:
