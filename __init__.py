@@ -24,5 +24,5 @@ ping = on_command("ping")
 @ping.handle()
 async def handle_function(args: Message = CommandArg()):
     内容 = args.extract_plain_text
-    结果 = await ping_main(内容)
+    结果 = await ping(内容)
     await ping.finish(结果)
