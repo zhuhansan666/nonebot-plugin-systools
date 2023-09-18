@@ -6,15 +6,15 @@
 
 <div align="center">
 
-# nonebot-plugin-systools-dev
+# nonebot-plugin-system-tools
 
-_✨ 系统助手-Dev ✨_
+_✨ 系统助手 For NoneBot ✨_
 
 </div>
 
 ## 📖 介绍
 
-系统助手 for Nonebot - 支持运行系统命令、备份 Koishi 配置文件到 GitHub、查询系统状态、获取 IP 地址等进阶操作
+系统助手 for Nonebot 的进阶频道。
 请注意，这是Dev频道，如果出现bug请及时发起Issue，这可能会成为后期更新的重要内容，很多超前版本也将在此发布，不过我们无法确保插件的可用性
 
 ## 💿 安装
@@ -23,7 +23,7 @@ _✨ 系统助手-Dev ✨_
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-systools-dev
+    nb plugin install nonebot-plugin-system-tools
 
 </details>
 
@@ -34,12 +34,12 @@ _✨ 系统助手-Dev ✨_
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-systools-dev
+    pip install nonebot-plugin-system-tools
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot-plugin-systools-dev"]
+    plugins = ["nonebot-plugin-system-tools"]
 
 </details>
 
