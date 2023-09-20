@@ -1,3 +1,14 @@
+from nonebot.plugin import PluginMetadata
+from .config import Config
+__plugin_meta__ = PluginMetadata(
+    name="系统助手",
+    description="系统助手 For Nonebot",
+    usage="systool",
+    type="application",
+    homepage="https://github.com/zhuhansan666/nonebot-plugin-systools",
+    config=Config,
+    supported_adapters="~onebot.v11",
+)
 import time
 from nonebot import on_command, require, logger
 from nonebot.exception import MatcherException
