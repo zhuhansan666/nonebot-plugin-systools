@@ -46,10 +46,10 @@ _✨ 系统助手 For NoneBot✨_
 ### 指令表
 | 指令 | 权限 | 需要@ | 范围 |
 |:-----:|:----:|:----:|:----:|
-| systool（开发中） | 所有人 | 否 | 群聊 |
+| systools（开发中） | 所有人 | 否 | 群聊 |
 
 
 ## 特别鸣谢
 [山重水复](https://github.com/Shanshui2022)<br>
-[zhuhansan666](https://github.com/zhuhansan666)<br>
+[爱喝牛奶](https://github.com/zhuhansan666)<br>
 没有他们就没有本项目！
